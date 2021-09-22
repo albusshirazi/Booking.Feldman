@@ -12,6 +12,7 @@ import About from './pages/About';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import Booknow from './pages/Booknow';
+import Classes from './components/Classes';
 
 function App() {
   return (
@@ -25,9 +26,9 @@ function App() {
           <Route exact path="/rooms/" component={Rooms}/>
           <Route exact path="/rooms/:slug" component={SingleRoom} />
           <Route exact path="/booknow/:slug" component={Booknow} />
-          <Route exact path="/book/Class" component={Error}/>
-          <Route exact path="/book/Room" component={Error}/>
-          <Route exact path="/book/Sport" component={Error}/>
+          <Route exact path="/book/Classes" component={Classes}/>
+          <Route exact path="/book/Rooms" component={Error}/>
+          <Route exact path="/book/Sports" component={Error}/>
 
           <Route component={Error}/>
         </Switch>
