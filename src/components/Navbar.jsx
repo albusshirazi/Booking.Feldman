@@ -24,15 +24,10 @@ const Navbar = () => {
                             <NavLink className="nav-link" activeClassName="active_class" exact to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="active_class" exact to="/rooms">Rooms</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="active_class" exact to="/about">About</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="active_class" exact to="/contact">Contact</NavLink>
+                            <NavLink className="nav-link" activeClassName="active_class" exact to="/profile">Profile</NavLink>
                         </li>
                     </ul>
+                    
                 </div>
             </div>
         </nav>

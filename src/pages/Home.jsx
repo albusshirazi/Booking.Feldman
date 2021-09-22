@@ -11,12 +11,8 @@ export default function Home() {
         <Hero hero="defaultHero">
         </Hero>
         <Banner title="ברוכים הבאים" subtitle="גלול מטה כדי לשריין מתקנים ברחבי הבסיס">
-                {/* <Link to="/rooms" className="btn btn-primary">
-                      Our Rooms
-                </Link> */}
         </Banner>
         <Services/> 
-        <FeaturedRooms/>
         </>
 
     )
