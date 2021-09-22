@@ -25,6 +25,10 @@ function App() {
           <Route exact path="/rooms/" component={Rooms}/>
           <Route exact path="/rooms/:slug" component={SingleRoom} />
           <Route exact path="/booknow/:slug" component={Booknow} />
+          <Route exact path="/book/Class" component={Error}/>
+          <Route exact path="/book/Room" component={Error}/>
+          <Route exact path="/book/Sport" component={Error}/>
+
           <Route component={Error}/>
         </Switch>
         <Footer/>
