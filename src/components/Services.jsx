@@ -8,19 +8,19 @@ export default class Services extends Component {
         services:[
             {
                 icon:<FaCocktail/>,
-                path: "Class",
+                path: "Classes",
                 title: "מרחבי לימוד",
                 info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur"
             },
             {
                 icon:<FaHiking/>,
-                path: "Sport",
+                path: "Sports",
                 title: "מרחבי ספורט",
                 info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur"
             },
             {
                 icon:<FaShuttleVan/>,
-                path: "Room",
+                path: "Rooms",
                 title: "חדרי מגורים",
                 info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur"
             },           
