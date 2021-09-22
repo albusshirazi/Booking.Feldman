@@ -3,6 +3,7 @@ import RoomsFilter from './RoomsFilter';
 import RoomsList from './RoomsList';
 import { withRoomConsumer } from '../context';
 import Loading from './Loading';
+import Navbar from './Navbar';
 
 function RoomsContainer({context}){
     const{loading,sortedRooms,rooms} = context;
@@ -12,6 +13,7 @@ function RoomsContainer({context}){
     }
     return(
         <>
+            <Navbar></Navbar>
             <RoomsFilter rooms={rooms}/>
             <RoomsList rooms = {sortedRooms}/>
         </>
